@@ -12,6 +12,13 @@ Keep the unvisited region as a rectangle [top, bottom] × [left, right]; each la
 
 **Complexity:** O(m·n) time, O(1) space beyond the output.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
